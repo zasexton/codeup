@@ -4,4 +4,4 @@ seasons = ["Summer","Fall","Winter","Spring"]
 
 string = "Hello Friend"
 
-iris_data = datasets.load_iris()
+iris_data = datasets.load_iris().data[:,:2]
